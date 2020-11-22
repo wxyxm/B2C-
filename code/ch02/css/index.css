@@ -309,28 +309,128 @@ position: relative;
     width: 236px;
     background-color: #f9f9f9;
 }
+/* 左侧广告头部 */
+.eboooks .left-box .content .ads .top-img{
+    width: 236px;
+    height: 290px;
+}
+/* 左侧下部分内容 */
+.eboooks .left-box .content .ads .bottom-text{
+    height: 160px;
+    width: 236px;
+}
+/* 左侧下部分内容的ul */
+.eboooks .left-box .content .ads .bottom-text ul{
+    width: 235px;
+    height: 160px;
+    margin:0 auto;
+    margin-left: 1px;
+}
+/* 左侧下部分内容的li */
+.eboooks .left-box .content .ads .bottom-text ul li{
+    float: left;
+    width: 78px;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 5px;
+}
 /* 右侧图书 */
 .eboooks .left-box .content .ebooks-list {
     height: 450px;
     width: 670px;
     background-color: #ccc;
 }
-.eboooks .left-box .content .ebooks-list ul li{
+/* 右侧图书的li */
+.eboooks .left-box .content .ebooks-list > ul > li{
     float: left;
     width: 165px;
     height: 223px;
     background-color: #fff;
     margin-left: 2px;
     margin-bottom: 2px;
+    text-align: center;
+}
+/* 右侧图书的所有p标签 */
+.eboooks .left-box .content .ebooks-list > ul > li > p{
+    text-align-last: left;
+    text-indent: 10px;
+}
+/* 右侧图书第一个p标签 */
+.eboooks .left-box .content .ebooks-list > ul > li > p:first-child{
+    font-size: 18px;
+}
+/* 右侧图书除第一个外的p标签 */
+.eboooks .left-box .content .ebooks-list > ul > li > p:not(:first-child){
+    color: red;
+}
+/* 右侧图书价格 */
+.eboooks .left-box .content .ebooks-list > ul > li > p:last-child{
+    font-size: 18px;
+}
+/* 右侧图书的图片 */
+.eboooks .left-box .content .ebooks-list >ul> li> img{
+    margin: 15px auto;
+}
+/* 右侧图书其他格子 */
+.eboooks .left-box .content .ebooks-list > ul > li:not(:first-child){
 
 }
+/* 右侧图书中特别的li 轮播容器 */
+.eboooks .left-box .content .ebooks-list ul li:first-child{
+   width: 332px;
+   height: 223px;
+   background-color: green;
+}
+
+.eboooks .left-box .content .ebooks-list ul li:first-child .pptbox{
+    width: 332px;
+    height: 223px;
+}
+
 /* 右侧盒子 */
 .eboooks .right-box{
     width: 286px;
-    height: 496px;
-    background-color: purple;
+    height: 456px;
+    margin-top: 40px;
+    border:2px solid #ccc;
+    /*  变为怪异盒子 */
+    box-sizing: border-box;
+}
+/* 右侧盒子的标题 */
+.eboooks .right-box .title{
+   text-align: center;
+   height: 50px;
+   line-height: 50px;
+   font-size: 24px;
+   font-weight: 200;
+   color: #333;
 }
 
+.eboooks .right-box ul li{
+    line-height: 42px;
+   font-size: 16px;
+   text-indent: 5px;
+}
+
+.eboooks .right-box ul li .desc{
+    font-size: 14px;
+    line-height: 18px;
+    height: 150px;
+    color: #333;
+    /* 隐藏 */
+    display: none;
+}
+
+.eboooks .right-box ul li .desc img{
+    margin-right: 9px;
+}
+.eboooks .right-box ul li:first-child p:first-child{
+    display: none;
+}
+
+.eboooks .right-box ul li .desc.active{
+    display: block;
+}
 /* 6.服装 */
 /* 7.户外运动 */
 /* 8.童装 */
