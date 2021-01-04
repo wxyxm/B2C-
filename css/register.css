@@ -1,0 +1,52 @@
+.register{
+    height: 500px;
+    width: 1200px;
+}
+.register h1{
+font-size: 25px;
+margin: 0 500px;
+color: orange;
+}
+.register form{
+    width: 300px;
+    height: 410px;
+    border: 2px solid deeppink;
+    margin: 20px 500px;
+    text-indent: 40px;
+}
+.register form span{
+    margin-left: 40px;
+}
+.register form span a{
+    color: pink;
+}
+.register form p{
+    width: 250px;
+    height: 30px;
+    border: 1px solid #cccc;
+    margin-top: 13px;
+    margin-left: 20px;
+    font-weight: 600;
+}
+.register form p input{
+    border: none;
+    margin: 10px 15px;
+    outline: none;
+}
+.register form .registerNow{
+    background-color: pink;
+    width: 250px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.register form p:nth-of-type(6){
+    text-indent: 29px;
+}
+.error{
+    color:red;
+}
+.error:first-child{
+    border: 1px solid deeppink;
+    color: #1cccc1;
+}
